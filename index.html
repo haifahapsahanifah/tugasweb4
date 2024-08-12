@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+             font-family: 'Times New Roman', Times, serif;
+             position: relative ;
+             background-color: black;
+        }
+     </style>
+</head>
+<body>
+    <header>
+        <img src="download__5_-removebg-preview.png" alt="logo" style="float: left; margin-right: 20px; width: 110px; height: 110px;">
+        <img src="OIP.jpeg" alt="logo" style="float: right; margin-left: 20px; width: 110px; height: 110px;">
+        <h1 style="display: inline-block; vertical-align: middle;"><b>Formulir Pendaftaran Ekstrakulikuler</b></h1>
+      </header>    
+      <form action="multipart"></form>
+    <main>
+        <section>
+            <div class="container">
+            <div class="biodata">
+            <h3>Biodata</h3>
+            <label for="username">Nama Lengkap : </label><input type="text" id="username" name="username"> <br> <br>
+            Kelas :
+            <form>
+                <select id="kelas" name="kelas">
+                    <option value="">Pilih Kelas</option>
+                    <option value="X PPLG 1">X PPLG 1</option>
+                            <option value="X PPLG 2">X PPLG 2</option>
+                            <option value="X PPLG 3">X PPLG 3</option>
+                            <option value="X MPLB 1">X MPLB 1</option>
+                            <option value="X MPLB 2">X MPLB 2</option>
+                            <option value="X MPLB 3">X MPLB 3</option>
+                            <option value="X PH 1">X PH 1</option>
+                            <option value="X PH 2">X PH 2</option>
+                            <option value="X PH 3">X PH 3</option>
+                            <option value="X TO 1">X TO 1</option>
+                            <option value="X TO 2">X TO 2</option>
+                            <option value="X TO 3">X TO 3</option>
+                            <option value="XI RPL 1">XI RPL 1</option>
+                            <option value="XI RPL 2">XI RPL 2</option>
+                            <option value="XI MPLB 1">XI MPLB 1</option>
+                            <option value="XI MPLB 2">XI MPLB 2</option>
+                            <option value="XI MPLB 3">XI MPLB 3</option>
+                            <option value="XI PH 1">XI PH 1</option>
+                            <option value="XI PH 2">XI PH 2</option>
+                            <option value="XI PH 3">XI PH 3</option>
+                            <option value="XI TO 1">XI TO 1</option>
+                            <option value="XI TO 2">XI TO 2</option>
+                            <option value="XI TO 3">XI TO 3</option>
+                            <option value="XII RPL 1">XII RPL 1</option>
+                            <option value="XII RPL 2">XII RPL 2</option>
+                            <option value="XII RPL 3">XII RPL 3</option>
+                            <option value="XII MPLB 1">XII MPLB 1</option>
+                            <option value="XII MPLB 2">XII MPLB 2</option>
+                            <option value="XII MPLB 3">XII MPLB 3</option>
+                            <option value="XII PH 1">XII PH 1</option>
+                            <option value="XII PH 2">XII PH 2</option>
+                            <option value="XII PH 3">XII PH 3</option>
+                            <option value="XII TO 1">XII TO 1</option>
+                            <option value="XII TO 2">XII TO 2</option>
+                            <option value="XII TO 3">XII TO 3</option>
+                </select>
+            </form> <br>
+                    <label for="tempat">Tempat Lahir : </label> <input type="text" id="tempat" name="tempat"> <br> <br>
+                    <label for="tanggal">Tanggal Lahir : </label> <input type="date" id="tanggal" name="tanggal"> <br> <br>
+                    <label for="usia">Usia : </label> <input type="text" id="usia" name="usia"> <br> <br>
+                    <p>Jenis Kelamin : </p> <form>
+                    <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki"> <label for="laki-laki">laki-laki</label> <br>
+                    <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan"> <label for="perempuan">perempuan</label> <br>
+            </form>  <br>
+            Agama :
+            <form>
+                <select id="agama" name="agama">
+                    <option value="">punya agama?</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen Protestan">Kristen</option>
+                    <option value="Kristen Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Konghucu">Konghucu</option>
+                    <option value="Ateis">Ateis</option>
+                </select>
+            </form>  <br>
+        </section>
+        <section>
+            <form>
+
+                <h3>Alamat</h3>
+                    <label for="alamat">Alamat Lengkap:</label>
+                    <textarea id="alamat" name="alamat" rows="2" cols="16"></textarea><br><br>
+                    
+                    <label for="rt">RT:</label>
+                    <input type="text" id="rt" name="rt"><br><br>
+                    
+                    <label for="rw">RW:</label>
+                    <input type="text" id="rw" name="rw"><br><br>
+                    
+                    <label for="desa_kelurahan">Desa/Kelurahan:</label>
+                    <select id="desa_kelurahan" name="desa_kelurahan">
+                      <option value="">Desa / Kelurahan</option>
+                      <option value="Cipada">Cipada</option>
+                      <option value="Jambudipa">Jambudipa</option>
+                      <option value="Padaasih">Padaasih</option>
+                      <option value="Pasirhalang">Pasirhalang</option>
+                      <option value="Pasirlangu">Pasirlangu</option>
+                      <option value="Tugumukti">Tugumukti</option>
+                      <option value="Sadang Mekar">Sadang Mekar</option>
+                    </select><br><br>
+                    
+                    <label for="kecamatan">Kecamatan:</label>
+                    <select id="kecamatan" name="kecamatan">
+                      <option value="">Kecamatan</option>
+                      <option value="Cisarua">Cisarua</option>
+                      <option value="Parongpong">Parongpong</option>
+                      <option value="Lembang">Lembang</option>
+                      <option value="Ngamprah">Ngamprah</option>
+                      <option value="Padalarang">Padalarang</option>
+                      <option value="Cipatat">Cipatat</option>
+                      <option value="Cikalong Wetan">Cikalong Wetan</option>
+                      <option value="Batujajar">Batujajar</option>
+                    </select><br><br>
+                    
+                    <label for="kabupaten_kota">Kabupaten/Kota:</label>
+                    <select id="kabupaten_kota" name="kabupaten_kota">
+                      <option value="">Kabupaten / Kota</option>
+                      <option value="Bandung Barat">Bandung Barat</option>
+                      <option value="Bandung">Bandung</option>
+                      <option value="Cianjur">Cianjur</option>
+                      <option value="Sumedang">Sumedang</option>
+                      <option value="Kota Bandung">Kota Bandung</option>
+                      <option value="Kota Cianjur">Kota Cianjur</option>
+                    </select><br><br>
+                    
+                    <label for="provinsi">Provinsi:</label>
+                    <select id="provinsi" name="provinsi">
+                      <option value="">Provinsi</option>
+                      <option value="Jawa Barat">Jawa Barat</option>
+                      <option value="Jawa Tengah">Jawa Tengah</option>
+                      <option value="Jawa Timur">Jawa Timur</option>
+                      <option value="Banten">Banten</option>
+                      <option value="DKI Jakarta">DKI Jakarta</option>
+                    </select><br><br>
+                    
+                    <label for="kode_pos">Kode Pos:</label>
+                    <input type="text" id="kode_pos" name="kode_pos"><br><br>
+                </form> <br>
+        </section>
+        <section>   
+                <form>
+                    <h3>Kontak</h3>
+                    <label for="no_telepon">No. Telepon:</label>
+                    <input type="tel" id="no_telepon" name="no_telepon"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <h3>Akun</h3>
+                    <input type="text" placeholder="Username" required>
+                    <input type="password" placeholder="Password" required>
+                    <span class="show-password">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </span>
+                    <br><br>
+
+                    <h3>Esktrakurikuler</h3>
+                        <input type="checkbox" id="futsal" name="ekskul[]" value="Futsal">
+                        <label for="futsal">Futsal</label><br>
+                        <input type="checkbox" id="basket" name="ekskul[]" value="Basket">
+                        <label for="basket">Basket</label><br>
+                        <input type="checkbox" id="volly" name="ekskul[]" value="Volly">
+                        <label for="volly">Volly</label><br>
+                        <input type="checkbox" id="tenis_meja" name="ekskul[]" value="Tenis Meja">
+                        <label for="tenis_meja">Tenis Meja</label><br>
+                        <input type="checkbox" id="pmr" name="ekskul[]" value="PMR">
+                        <label for="pmr">PMR</label><br>
+                        <input type="checkbox" id="codax" name="ekskul[]" value="Codax">
+                        <label for="codax">Codax</label><br>
+                        <input type="checkbox" id="kesenian_daerah" name="ekskul[]" value="Kesenian Daerah">
+                        <label for="kesenian_daerah">Kesenian Daerah</label><br>
+                        <input type="checkbox" id="badminton" name="ekskul[]" value="Badminton">
+                        <label for="badminton">Badminton</label><br>
+                        <input type="checkbox" id="renang" name="ekskul[]" value="Renang">
+                        <label for="renang">Renang</label><br>
+                        <input type="checkbox" id="sispakala" name="ekskul[]" value="Sispakala">
+                        <label for="sispakala">Sispakala</label><br>
+                        <input type="checkbox" id="modern_dance" name="ekskul[]" value="Modern Dance">
+                        <label for="modern_dance">Modern Dance</label><br>
+                        <input type="checkbox" id="tari_tradisional" name="ekskul[]" value="tari_tradisional">
+                        <label for="tari_tradisional">Tari Tradisional</label><br>
+                        <input type="checkbox" id="pramuka" name="ekskul[]" value="Pramuka">
+                        <label for="pramuka">Pramuka</label><br>
+                        <input type="checkbox" id="paskibra" name="ekskul[]" value="paskibra">
+                        <label for="paskibra">Paskibra</label><br>
+                        <input type="checkbox" id="karate" name="ekskul[]" value="karate">
+                        <label for="karate">Karate</label>
+                    <br><br>
+
+                    <h3>Persyaratan</h3>
+                    <label for="pas_foto">Upload Pas Foto 3x4:</label>
+                    <input type="image" id="pas_foto" name="pas_foto" accept="image/*"><br><br>
+                    <label for="kartu_tanda_pelajar">Upload Kartu Tanda Pelajar:</label>
+                    <input type="file" id="kartu_tanda_pelajar" name="kartu_tanda_pelajar"><br><br>
+                    
+                    <input type="submit" value="Simpan">
+
+                </form><br><br>
+            
+        </section>
+        <div></div>
+        <p style="color: white;">&copy; hfhpshnfh</p>
+    </div>
+    </main>
+</body>
+</html>
